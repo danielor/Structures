@@ -1,5 +1,6 @@
 import unittest
 from test.LinkedListTest import LinkedListTest
+from test.DoublyLinkedListTest import DoublyLinkedListTest
 
 def runAllTests():
     """
@@ -7,6 +8,7 @@ def runAllTests():
     """
     structureSuite = unittest.TestSuite()
     structureSuite.addTest(unittest.makeSuite(LinkedListTest))
+    structureSuite.addTest(unittest.makeSuite(DoublyLinkedListTest))
     runner = unittest.TextTestRunner()
     runner.run(structureSuite)
 
