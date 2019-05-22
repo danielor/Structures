@@ -1,4 +1,4 @@
-from node.DoublyLinkedListNode import DoublyLinkedListNode
+from ds.node.DoublyLinkedListNode import DoublyLinkedListNode
 
 class DoublyLinkedList(object):
     """

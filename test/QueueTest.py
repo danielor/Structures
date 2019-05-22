@@ -1,5 +1,5 @@
 import unittest 
-from Queue import Queue
+from ds.linear.Queue import Queue
 
 class QueueTest(unittest.TestCase):
     """

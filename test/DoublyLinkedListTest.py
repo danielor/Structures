@@ -1,5 +1,5 @@
 import unittest 
-from DoublyLinkedList import DoublyLinkedList
+from ds.linear.DoublyLinkedList import DoublyLinkedList
 
 class DoublyLinkedListTest(unittest.TestCase):
     """

@@ -1,5 +1,5 @@
 import unittest
-from Stack import Stack
+from ds.linear.Stack import Stack
 
 class StackTest(unittest.TestCase):
     """
